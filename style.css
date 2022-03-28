@@ -1,0 +1,204 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.Navigation{
+    border: 5px solid rgb(236, 230, 230);
+    background-color: rgb(236, 233, 233);
+    width: 100%;
+    height: 50px;
+}
+
+
+.Navigation img{
+    width: 40px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+
+.Navigation h1{
+    margin:  -45px 80px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.Navigation h4{
+    margin:1% 200px;
+    color: rgb(53, 15, 15);
+    font-size: 15px;
+    cursor:not-allowed;
+}
+.Navigation .searcher{
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    width:350px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.Delete{
+    position: absolute;
+    top: 3%;
+    left: 59%;
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+}
+
+.search{
+    position: absolute;
+    left: 60.7%;    
+    top: 2%;
+    cursor: pointer;
+    width: 10px ;
+    height: 30px;
+}
+
+.mic{
+    position: absolute;
+    left: 65%;
+    top: 0.5%;
+    /* background-color: rgb(139, 133, 133); */
+    border-radius: 50%;
+    width: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.mic:hover{
+    background-color: rgb(106, 100, 100);
+}
+
+.options{
+    position: absolute;
+    top: 0.2%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.options #profile{
+    background-color: rgb(206, 206, 206);
+   border-radius: 50%;
+}
+/* Left Side ListBox */
+.Listbar{
+    
+    width: 190px;
+    height: 750px;
+   
+}
+
+.Listbar ul{
+    color: black;
+    margin: -15px;
+    list-style: none;
+}
+.Listbar ul a{
+    list-style: none;
+    text-decoration: none;
+}
+.Listbar ul li{
+    margin: 25px;
+    font-size: 15px;
+    color: rgb(15, 14, 14);
+    font-weight: bolder;
+}
+
+.Listbar img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+   
+}
+
+.Listbar li:hover{
+    color: rgb(255, 7, 7);
+}
+.subscription{
+    margin: 18px;
+    color: rgb(151, 149, 149);
+}
+
+.Listbar hr{
+    width: 180px;
+   
+}
+
+.banner{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width:85%;
+    height: 220px;
+    /* border: 1px solid rgb(145, 145, 145); */
+}
+
+.banner img{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+.banner h2{
+    position: absolute;
+    top: 80px;
+    font-size: 30px;
+    font-family:cursive ;
+    color: whitesmoke;
+}
+
+.banner h3{
+    position: absolute;
+    top: 190px;
+    font-size: 15px;
+    font-family:cursive ;
+    color: whitesmoke;
+}
+
+.container{
+    position: absolute;
+    top: 48%;
+    height: 20%;
+    /* border: 2px solid green; */
+    left: 14%;
+  
+
+}
+
+.container .vid-list{
+    width: 230px;
+    float: left;
+    margin: 30px;
+}
+
+
+.container .vid-list .thumbnail{
+
+    width: 260px;
+    height: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container .vid-list .flex-div img{
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(126, 125, 125);
+}
+
+.container .vid-list .flex-div a{
+    color: black;
+    font-size: 18px;
+}
+
+.container .vid-list .flex-div p{
+    color: rgb(59, 59, 59);
+}
+
+#channel{
+    cursor: pointer;
+}
